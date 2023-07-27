@@ -1,3 +1,3 @@
-function convertToRomanNumerals() {
+export function convertToRomanNumerals() {
   return "V";
 }

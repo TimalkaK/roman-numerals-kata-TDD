@@ -16,4 +16,10 @@ describe("convertToRomanNumerals", () => {
     expect(convertToRomanNumerals(3001)).toBe(undefined);
     expect(convertToRomanNumerals(4000)).toBe(undefined);
   });
+
+  test("returns number if it is one less than a number in romanConstants", () => {
+    expect(convertToRomanNumerals(3)).toBe(3);
+    expect(convertToRomanNumerals(2)).toBe(2);
+    expect(convertToRomanNumerals(8)).toBe(8);
+  });
 });

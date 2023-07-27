@@ -12,6 +12,7 @@ export function convertToRomanNumerals(num) {
   return undefined;
  }else{
   console.log(num); 
+  return num;
  }
    
 }
